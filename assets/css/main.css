@@ -1,0 +1,100 @@
+@import url("../../apps/keep/assets/css/keep.css"); 
+@import url("../../apps/mail/assets/css/mail.css"); 
+
+@font-face{
+    font-family: roboto;
+    src: url("../fonts/Roboto-Medium.ttf")
+}
+@font-face{
+    font-family: dosis;
+    src: url("../fonts/Dosis-Medium.ttf")
+}
+
+
+  *{
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    background-color: #f1f3f8;
+}
+input{
+    background-color: #E6EBEB;
+}
+.home-page{
+    font-family: dosis;
+}
+.home-page h1{
+    font-size: 3rem;
+    margin-top:60px;
+}
+.home-page h1 span{
+    font-size: 3rem; 
+    color:#5d6070b3;
+}
+.home-page img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.subtitle-home p,
+.subtitle-home span{
+    display: inline;
+    font-size: 1.5rem;
+} 
+.subtitle-home span{
+    color:#5d6070b3;
+    font-weight: 800;
+}
+
+.nav-bar{
+    
+    background-color: #393b44;
+    height: 80px;
+    color:#F1F3F8;
+    font-family: roboto,serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-family: dosis;
+    
+}
+
+/* .nav-item-div{
+    
+    
+}
+.nav-item-div:hover{
+    
+} */
+.nav-item{
+    height: 100%;
+    width: 10%;
+    color:#F1F3F8;
+    text-decoration: none;
+    cursor: pointer;
+    align-self: center;
+    text-align: center; 
+    padding: 21px; 
+}
+.nav-item:hover{
+    border-bottom: 4px solid #fada3d; 
+    color: #fada3d; 
+} 
+
+@media (max-width: 500px){
+    .nav-bar{
+        height: 50px;
+        display: flex;
+    }
+    .nav-item-div{
+    margin-left: 20px;
+    }
+}
+ 
+
+
+
+
