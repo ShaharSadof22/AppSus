@@ -1,7 +1,7 @@
 
 export function Home(){
 
-    const path = "../assets/img/homePic.jpg"
+    const path = "./assets/img/homePic.jpg"
 
     return <div className="home-page flex column align-center">
         <img src= {path} />
